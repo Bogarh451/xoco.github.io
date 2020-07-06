@@ -1,0 +1,81 @@
+.general{
+	background-color:white;
+	width:800px;
+	margin:0 auto;
+	font-family:Arial,Verdana,Sans
+  
+  }
+  .header{
+	height:140px;
+  }
+  h1{
+	font-size:30px;
+  }
+  h2{
+	text-align:center;
+	color:#ff6600
+  }
+  hr{
+	 border: 0; height: 8px; background: #333; background-image: linear-gradient(to right, #ff6600, #ff6600, #ff6600);
+	clear:both;
+  }
+  
+  .preguntas{
+	height:1000px;
+   clear:both;
+  }
+  ul{
+	list-style-type: none;
+  }
+  .titulo{
+	float:left;
+  }
+  .footer{
+	height:60px;
+	background-color:#81BEF7;
+  }
+  .footer-img{
+	float:right;
+  }
+  .page-header-img{
+	width:200px;
+	float:right;
+	
+  }
+  .text-header .logo-header{
+	heigth:100px;
+  }
+  .text-header{
+	width:500px;
+	float:left;
+  }
+  .logo-header{
+	width:300px;
+	float:right;
+  }
+  .main-table{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial, Helvetica, Sans;
+	font-size:0.8em;
+  }
+  .main-table,th,td{
+	border:1px solid black;
+  }
+  .main-table .comentarios{
+	width:400px;
+  }
+  .main-table .alt{
+	width:90px;
+	padding:0px;
+	text-align:center;
+  }
+  .main-table .item-number{
+	width:20px;
+	text-align:center;
+  }
+  .referencias{
+	font-size:10px;
+  }
+  
