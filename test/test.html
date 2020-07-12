@@ -1,188 +1,496 @@
+<!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta charset="UTF-8">
-	<title>TEST</title>
-	<link rel="stylesheet" href="testEstilio.css">
-	<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  
 
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" rel="stylesheet" href="test.css">
 
 </head>
-<body>
-	<div id="page-container" class="general">
-		<div id="page-header" class="general, header">
-		  <div class="text-header"> <p class="titulo"><h1>
-	  </h1></p></div>
-		  <div class="logo-header"><img src="../img/xoco.jpeg" class="page-header-img"></img></div>
-		  <br/>
-		  <hr></hr>
-		</div>
-		<div id="question-container" class="preguntas">
-		  <p><h2>Cuestionario
-	  </h2></p>
-	  <p>
-		<strong>Instrucciones:</strong> Indique la intensidad con que se cumplieron o no, durante el último mes, los síntomas 
-		que se describen en cada uno de los 14 ítems:</p>
-		<br>
-		0. Ausente
-		<br>
-		1. Intensidad Leve
-		<br>
-		2. Intensidad Moderada
-		<br>
-		3. Intensidad Grave
-		<br>
-		4. Totalmente Incapacitado
-		<br>
-	  <p>
-	  
-	  <form id="acd-form">
-		<table class="main-table">
-		  <tr><th>Nº</th><th>Comentarios</th><th >0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
-		  
-		  <tr>
-			<td class="item-number">1</td>
-			<td class="comentarios">Estado ansioso: Preocupaciones, temor de que suceda lo peor, temor anticipado, irritabilidad.</td>
-			<td class="alt"><input type="radio" name="preg-1" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			
-		  </tr>
-		  <tr>
-			<td class="item-number">2</td>
-			<td class="comentarios">Tensión: Sensaciones de tensión, fatigabilidad, sobresalto al responder, llanto fácil, temblores, sensación de inquietud, imposibilidad de relajarse.</td>
-			<td class="alt"><input type="radio" name="preg-2" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-2" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-2" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			
-		  </tr>
-		  <tr>
-			<td class="item-number">3</td>
-			<td class="comentarios">Temores: A la oscuridad, a los desconocidos, a ser dejado solo, a los animales, al tráfico, a las multitudes.</td>
-			<td class="alt"><input type="radio" name="preg-3" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-3" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-3" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">4</td>
-			<td class="comentarios">Insomnio: Dificultad para conciliar el sueño. Sueño interrumpido, sueño insatisfactorio y sensación de fatiga al despertar, pesadillas, terrores nocturnos.</td>
-			<td class="alt"><input type="radio" name="preg-4" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-4" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-4" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">5</td>
-			<td class="comentarios">Funciones Intelectuales (Cognitivas): Dificultad de concentración, mala o escasa memoria.</td>
-			<td class="alt"><input type="radio" name="preg-5" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-5" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-5" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">6</td>
-			<td class="comentarios">Humor depresivo: Pérdida de interés. Falta de placer en los pasatiempos, depresión, despertarse más temprano de lo esperado. Variaciones anímicas a lo largo del día.</td>
-			<td class="alt"><input type="radio" name="preg-6" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-6" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-6" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">7</td>
-			<td class="comentarios">Síntomas somáticos musculares: Dolores musculares, espasmos musculares o calambres, rigidez muscular, tics, rechinar de dientes, voz vacilante, tono muscular aumentado.</td>
-			<td class="alt"><input type="radio" name="preg-7" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-7" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-7" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">8</td>
-			<td class="comentarios">Síntomas somáticos sensoriales: Zumbido de oídos, visión borrosa, oleadas de frío y calor,  sensación de debilidad. Sensaciones parestésicas (pinchazos, picazón u hormigueos).</td>
-			<td class="alt"><input type="radio" name="preg-8" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-8" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-8" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">9</td>
-			<td class="comentarios">Síntomas cardiovasculares: Taquicardia, palpitaciones, dolor precordial (en el pecho), pulsaciones vasculares pronunciadas, sensacion de "baja presión" o desmayo, arritmias.</td>
-			<td class="alt"><input type="radio" name="preg-9" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-9" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-9" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">10</td>
-			<td class="comentarios">Síntomas respiratorios: Opresión o constricción en el tórax (pecho), sensación de ahogo, suspiros, disnea (sensación de falta de aire o de dificultad respiratoria).</td>
-			<td class="alt"><input type="radio" name="preg-10" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-10" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-10" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">11</td>
-			<td class="comentarios">Síntomas gastrointestinales: Dificultades al deglutir, flatulencia, dolor abdominal, sensación de ardor, pesadez abdominal, nauseas, vómitos, borborismos, heces blandas, pérdida de peso, constipación</td>
-			<td class="alt"><input type="radio" name="preg-11" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-11" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-11" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">12</td>
-			<td class="comentarios">Síntomas genitourinarios: Micciones frecuentes, micción urgente, amenorrea (falta del período menstrual), menorragia, frigidez, eyaculación precoz, pérdida de libido, impotencia sexual.</td>
-			<td class="alt"><input type="radio" name="preg-12" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-12" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-12" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		  <tr>
-			<td class="item-number">13</td>
-			<td class="comentarios">Síntomas del sistema nervioso autónomo: Boca seca, accesos de enrojecimiento, palidez, tendencia a la sudoración, vértigos, cefaleas (dolor de cabeza) por tensión, erectismo piloso (piel de gallina).</td>
-			<td class="alt"><input type="radio" name="preg-13" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-13" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-13" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-		   <tr>
-			<td class="item-number">14</td>
-			<td class="comentarios">Conducta en el transcurso del test: Inquietud, impaciencia o intranquilidad, temblor de manos, fruncimiento del entrecejo, rostro preocupado, suspiros o respiración rápida, palidez facial, deglución de saliva, eructos, tics.</td>
-			<td class="alt"><input type="radio" name="preg-14" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-14" value="2"> </td>
-			<td class="alt"><input type="radio" name="preg-14" value="3"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-			<td class="alt"><input type="radio" name="preg-1" value="1"> </td>
-		  </tr>
-	  
-		</table> 
-		<br>
-		<input id="responder" type="submit" value="TUS RESULTADOS"><input type="reset" value="Borrar"></input>
-	  </form>
-	  </p>
-	  <p><span class="referencias">
 
-	  </p>
-	  </div>
-		<div id="page-footer" class="footer">
-		  <img src="../img/xoco.jpeg" class="footer-img"></img>
-	  </div>
-	  </div> 
-	  <script src="jquery-1.11.2.js"></script>
+
+<body>
+
+  <div class="contenedor">
+
+    <nav>
+      <!--conIzqIns = contenedor izquierdo instrucciones-->
+      <div id="contract" class="navContenedor">
+
+        <div id="letras">
+
+          <a href="#instrucciones">
+            <h1 id="toSmall" class="abajoArriba">Instrucciones</h1>
+          </a>
+
+        
+          <a id="enlace" href="#test">
+            <h1 id="toBig" >El test</h1>
+          </a>
+
+        </div>
+      </div>
+
+
+
+    </nav>
+
+    <!--
+
+
+      <div id="con1">
+
+        <a href="#instrucciones">
+          <h2>Instrucciones</h2>
+        </a>
+
+        <a href="#uno"><h1 id="unoBaja"><h1>
+          <h1 class="ins">Inicio</h1>
+        </a>
+      </div>
+
+      <div id="con2">
+			  <a href="#dos">
+          <h1 class="ins">
+            Casi Terminas
+          </h1>
+        </a>
+      </div>
+
+      <div id="con3">
+        <a href="#tres">
+          <h1 class="ins">Fin</h1>
+        </a>
+      </div>
+
+    </nav>
+    
+    -->
+
+    <section class="secciones">
+
+      <section id=instrucciones>
+
+        <p>
+          Indique la intensidad con que se cumplieron o no, durante el último mes, los síntomas que se describen en cada
+          uno de los 14 ítems:
+          <br>
+          <br>
+          <br>
+          0. Ausente
+          <br>
+          1. Intensidad Leve
+          <br>
+          2. Intensidad Moderada
+          <br>
+          3. Intensidad Grave
+          <br>
+          4. Totalmente Incapacitado
+          <br>
+          <br>
+          <br>
+          Si durante el test tiene dudas, puede regresar a leer las instrucciones haciendo click en "Instrucciones", del lado izquierdo.
+        </p>
+
+      </section>
+
+      <section id="test">
+
+        <div id="testContenedor">
+        <table class="responsive-table">
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Pregunta</th>
+              <th>Intensidad</th>
+            </tr>
+          </thead>
+    
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Estado ansioso: Preocupaciones, temor de que suceda lo peor, temor anticipado, irritabilidad.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>2</td>
+              <td>Tensión: Sensaciones de tensión, fatigabilidad, sobresalto al responder, llanto fácil, temblores, sensación de inquietud, imposibilidad de relajarse.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>3</td>
+              <td>Temores: A la oscuridad, a los desconocidos, a ser dejado solo, a los animales, al tráfico, a las multitudes.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>4</td>
+              <td>Insomnio: Dificultad para conciliar el sueño. Sueño interrumpido, sueño insatisfactorio y sensación de fatiga al despertar, pesadillas, terrores nocturnos</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>5</td>
+              <td>Funciones Intelectuales (Cognitivas): Dificultad de concentración, mala o escasa memoria.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>6</td>
+              <td>Humor depresivo: Pérdida de interés. Falta de placer en los pasatiempos, depresión, despertarse más temprano de lo esperado. Variaciones anímicas a lo largo del día.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+  
+            <tr>
+              <td>7</td>
+              <td>Síntomas somáticos musculares: Dolores musculares, espasmos musculares o calambres, rigidez muscular, tics, rechinar de dientes, voz vacilante, tono muscular aumentado</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+            <tr>
+              <td>8</td>
+              <td>Síntomas somáticos sensoriales: Zumbido de oídos, visión borrosa, oleadas de frío y calor,  sensación de debilidad. Sensaciones parestésicas (pinchazos, picazón u hormigueos).</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+  
+  
+            <tr>
+              <td>9</td>
+              <td>Síntomas cardiovasculares: Taquicardia, palpitaciones, dolor precordial (en el pecho), pulsaciones vasculares pronunciadas, sensacion de "baja presión" o desmayo, arritmias.</td>
+              <td>
+                  <form action="#">
+                      <p class="range-field">
+                        <input type="range" id="test5" min="0" max="4" />
+                      </p>
+                    </form>
+              </td>
+            </tr>
+          </tbody>
+  
+          <tr>
+            <td>10</td>
+            <td>Síntomas respiratorios: Opresión o constricción en el tórax (pecho), sensación de ahogo, suspiros, disnea (sensación de falta de aire o de dificultad respiratoria).</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+  
+          <tr>
+            <td>11</td>
+            <td>Síntomas gastrointestinales: Dificultades al deglutir, flatulencia, dolor abdominal, sensación de ardor, pesadez abdominal, nauseas, vómitos, borborismos, heces blandas, pérdida de peso, constipación.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+  
+          <tr>
+            <td>12</td>
+            <td>Síntomas genitourinarios: Micciones frecuentes, micción urgente, amenorrea (falta del período menstrual), menorragia, frigidez, eyaculación precoz, pérdida de libido, impotencia sexual.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+  
+          <tr>
+            <td>13</td>
+            <td>Síntomas del sistema nervioso autónomo: Boca seca, accesos de enrojecimiento, palidez, tendencia a la sudoración, vértigos, cefaleas (dolor de cabeza) por tensión, erectismo piloso (piel de gallina).</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+  
+          <tr>
+            <td>14</td>
+            <td>Conducta en el transcurso del test: Inquietud, impaciencia o intranquilidad, temblor de manos, fruncimiento del entrecejo, rostro preocupado, suspiros o respiración rápida, palidez facial, deglución de saliva, eructos, tics.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+        </tbody>
+  
+        </table>
+      </section>
+
+    </div>
+    </Section>
+
+  </div>
+
+
+
+
+  <!--<section id="Test">
+    <table class="responsive-table">
+        <thead>
+          <tr>
+            <th>Número</th>
+            <th>Pregunta</th>
+            <th>Intensidad</th>
+          </tr>
+        </thead>
+  
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Estado ansioso: Preocupaciones, temor de que suceda lo peor, temor anticipado, irritabilidad.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Tensión: Sensaciones de tensión, fatigabilidad, sobresalto al responder, llanto fácil, temblores, sensación de inquietud, imposibilidad de relajarse.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Temores: A la oscuridad, a los desconocidos, a ser dejado solo, a los animales, al tráfico, a las multitudes.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Insomnio: Dificultad para conciliar el sueño. Sueño interrumpido, sueño insatisfactorio y sensación de fatiga al despertar, pesadillas, terrores nocturnos</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>Funciones Intelectuales (Cognitivas): Dificultad de concentración, mala o escasa memoria.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Humor depresivo: Pérdida de interés. Falta de placer en los pasatiempos, depresión, despertarse más temprano de lo esperado. Variaciones anímicas a lo largo del día.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>7</td>
+            <td>Síntomas somáticos musculares: Dolores musculares, espasmos musculares o calambres, rigidez muscular, tics, rechinar de dientes, voz vacilante, tono muscular aumentado</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>Síntomas somáticos sensoriales: Zumbido de oídos, visión borrosa, oleadas de frío y calor,  sensación de debilidad. Sensaciones parestésicas (pinchazos, picazón u hormigueos).</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>9</td>
+            <td>Síntomas cardiovasculares: Taquicardia, palpitaciones, dolor precordial (en el pecho), pulsaciones vasculares pronunciadas, sensacion de "baja presión" o desmayo, arritmias.</td>
+            <td>
+                <form action="#">
+                    <p class="range-field">
+                      <input type="range" id="test5" min="0" max="4" />
+                    </p>
+                  </form>
+            </td>
+          </tr>
+        </tbody>
+
+        <tr>
+          <td>10</td>
+          <td>Síntomas respiratorios: Opresión o constricción en el tórax (pecho), sensación de ahogo, suspiros, disnea (sensación de falta de aire o de dificultad respiratoria).</td>
+          <td>
+              <form action="#">
+                  <p class="range-field">
+                    <input type="range" id="test5" min="0" max="4" />
+                  </p>
+                </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>11</td>
+          <td>Síntomas gastrointestinales: Dificultades al deglutir, flatulencia, dolor abdominal, sensación de ardor, pesadez abdominal, nauseas, vómitos, borborismos, heces blandas, pérdida de peso, constipación.</td>
+          <td>
+              <form action="#">
+                  <p class="range-field">
+                    <input type="range" id="test5" min="0" max="4" />
+                  </p>
+                </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>12</td>
+          <td>Síntomas genitourinarios: Micciones frecuentes, micción urgente, amenorrea (falta del período menstrual), menorragia, frigidez, eyaculación precoz, pérdida de libido, impotencia sexual.</td>
+          <td>
+              <form action="#">
+                  <p class="range-field">
+                    <input type="range" id="test5" min="0" max="4" />
+                  </p>
+                </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>13</td>
+          <td>Síntomas del sistema nervioso autónomo: Boca seca, accesos de enrojecimiento, palidez, tendencia a la sudoración, vértigos, cefaleas (dolor de cabeza) por tensión, erectismo piloso (piel de gallina).</td>
+          <td>
+              <form action="#">
+                  <p class="range-field">
+                    <input type="range" id="test5" min="0" max="4" />
+                  </p>
+                </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>14</td>
+          <td>Conducta en el transcurso del test: Inquietud, impaciencia o intranquilidad, temblor de manos, fruncimiento del entrecejo, rostro preocupado, suspiros o respiración rápida, palidez facial, deglución de saliva, eructos, tics.</td>
+          <td>
+              <form action="#">
+                  <p class="range-field">
+                    <input type="range" id="test5" min="0" max="4" />
+                  </p>
+                </form>
+          </td>
+        </tr>
+      </tbody>
+
+      </table>
+
+    </section>
+    -->
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="app.js"></script>
+
 </body>
+
 </html>
