@@ -1,0 +1,329 @@
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 500vh;
+        width: 100vw;
+    }
+ 
+
+    header {
+        height: 100vh;
+        background: #6491735e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #DBD5A4, #64917362), url(../img/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #DBD5A4, #64917367), url(../img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: 70%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .contenedorHeader {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorH1 {
+        height: 33vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+   #titutlos{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 5vmax;
+        color: #183e7c;
+        letter-spacing: 20px;
+    }
+
+    #pH1 {
+        padding-right: 5%;
+        padding-left: 15%;
+        text-align: end;
+        color:black;
+        font-size: 3vw;
+    }
+
+    .contenedorH2{
+        height: 33vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    #pH2 {
+        color:black;
+        font-size: 3vw;
+        padding-right: 15%;
+    }
+
+    .contenedorH3{
+        height: 34vh;
+        width: 100vw;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #lineaVertical{
+        position: absolute;
+        align-self: flex-start;
+        border-left: 1vw solid #183e7c;
+        height: 13vh;
+        margin-left: 3vw;
+    }
+
+    #tituloH3{ 
+        margin-left: 10vw;
+        font-size: 4vmax;
+    }
+
+    #tituloScroll{
+        font-size: 3vw;
+        margin-bottom: 5vh;
+        align-self: flex-start;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+    }
+
+
+    /*SECCION 1, EMPATIA */
+    .contenedorEmpatia{
+        height: 100vh;
+        width: 100vw;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     /*Parrafos y titulos*/
+    .tituloConTex{
+        padding: -200px;
+        font-size: 2vmax;
+    }
+    .pConTex{
+        font-size: 1.7vmax;
+    }
+    /*ConTexImg1 = contenedor de textos e imagenes 1*/
+    .conTexImg1{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 10px;
+    }
+    /*Contenedor de texto*/       
+    .con1Tex{
+        align-self: center;
+        height: 30vh;
+        width: 70vw;
+        background-color: #183e7c;
+        padding: 2%;
+    }
+    /*Se agrega segunda clase para darle el color dependiendo del div*/
+    .blanco{
+        color: #f8f9fb;
+    }
+    /*Contenedor de imagen*/ 
+    .eImg1{
+        background-image: url(../img/himg1.jpg);
+        background-position: center;
+        align-self: center;
+        height: 20vh;
+        width: 70vw;
+    }
+
+    /*SEGUNDA PARTE SECCION 1, LO MISMO*/ 
+    .conTexImg2{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .con2Tex{
+        align-self: center;
+        height: 20vh;
+        width: 70vw;
+        background-color: #c1d1de;
+        padding: 2%;
+
+    }
+    .azul{
+        color: #183e7c;
+    }
+    .eImg2{
+        background-image: url("../img/himg2.jpg");
+        background-position: center;
+        align-self: center;
+        height: 30vh;
+        width: 70vw;
+    }
+
+    /*SECCION 2*/
+    .contenedorCulpa{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #183e7c;
+    }
+    .cDorado{
+        text-align: center;
+        color: #e5c700;
+        font-size: 8vw;
+    }
+    .cBlanco{
+        color: #f8f9fb;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    /*SECCION 3*/
+
+    .contenedorXoco{
+        height: 100vh;
+        width: 100vw;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo{
+        font-size: 6vw;
+        text-align: center;
+    }
+    .azul{
+        color: #183e7c;
+    }
+
+    .dorado{
+        color: #e5c700;
+    }
+
+    .parrafo{
+        font-size: 3vw;
+    }
+
+    .conTeX{
+        align-self: center;
+        height: 70vh;
+        width: 70vw;
+        background-color: #c1d1de;
+        padding: 2%;
+
+    }
+
+    .conImgX{
+        background-image: url(../img/xoco.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        align-self: center;
+        height: 30vh;
+        width: 70vw;
+        background-color:#183e7c;
+
+    }
+
+/*SECCION 4*/
+    .contenedorMetodo{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        background-color: darkorange;
+    }
+
+    .textoMet1{
+        text-align: center;
+        height: 40vh;
+        width: 100vw;
+        background-color: #183e7c;
+        padding: 5vmax;
+
+    }
+
+    .textoMet2{
+        text-align: center;
+        height: 30vh;
+        width: 100vw;    
+        background-color: #f8f9fb;
+        padding: 5vmax;    
+
+    }
+
+    .textoMet3{
+        text-align: center;
+        height: 30vh;
+        width: 100vw;        
+        background-color: #c1d1de ;
+        padding: 5vmax;
+    }
+
+    #texLeft{
+        text-align: start;
+    }
+
+    .contenedorFooter{
+        text-align: center;
+        font-size: 3vmax;
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .conTexFoo{
+        height: 40vh;
+        background-color: #183e7c;
+
+    }
+    .azulClaro{
+        color:#c1d1de ;
+    }
+
+    .contEnlace{
+        height: 2vh;
+        background-color: #f8f9fb ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+}
+
+/*Laptop y ipad*/
+@media screen and (min-width: 960px) {
+}
+
+/*Escritorio*/
+@media screen and (max-width: 1200px) {
+}
