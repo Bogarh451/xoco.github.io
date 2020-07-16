@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    max-height: 150vh;
+    max-width: 100vw;
+    font-family: 'Mulish', sans-serif;
+}
+
+.ltDorado{
+    color: #e5c700;
+}
+.ltAzulF{
+    color: #183e7c;
+}
+
+.ltBlanco{
+    color: #f8f9fb;
+}
+.ltAzulC{
+    color: #c1d1de;
+}
+
+.letraP{
+
+}
+.fab{
+    color: white;
+    font-size: 10vw;
+}
+.contenedorResultado{
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+.contenedorResultado_primero{
+    height: 10vh;
+    width: 100vw;
+    background-color: #f8f9fb;
+    padding:2%;  
+}
+
+.contenedorResultado_segundo{
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #183e7c;
+    
+}
+
+.contenedorResultado_tercero{
+    height: 45vh;
+    width: 100vw;
+    background-color: #f8f9fb;
+padding:2%;
+}
+
+.contenedorResultado_cuarto{
+    height: 50vh;
+    background-color: #183e7c;
+    padding:2%;
+    width: 98vw;
+}

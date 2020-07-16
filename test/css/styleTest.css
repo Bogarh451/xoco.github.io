@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    min-height: 300vh;
+    max-width: 100vw;
+}
+.flip{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.ltDorado{
+    color: #e5c700;
+    font-size: 4vmax;
+}
+.ltAzulF{
+    color: #183e7c;
+}
+
+.ltBlanco{
+    color: #f8f9fb;
+}
+.ltAzulC{
+    color: #c1d1de;
+}
+
+.tituloP{
+
+}
+
+.tituloG{
+
+}
+
+
+.instrucciones{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f9fb;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.containerVideo{
+    background-image: url("../img/incioVideo.gif");
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -100vh;
+    text-align: center;
+    position: absolute;
+}
+
+.animado{
+    background-image: url("../img/incioVideo.gif");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -100vh;
+    animation: putOnCP1 3s;
+    -webkit-animation: putOnCP1 3s;
+    animation-fill-mode: forwards;
+}
+.contenedorLnk{
+    position: absolute;
+}
+
+@keyframes putOnCP1{
+    0%{
+        height: 100vh;
+        width: 100vw; 
+    }
+    25%{
+        height: 100vh;
+        width: 50vw;
+        
+        
+    }
+    50%{
+        margin-left: 50vw;
+        height: 100vh;
+        width: 50vw;
+        
+    }
+    100%{
+        
+        margin-left: 52vw;
+        height: 46vh;
+        width: 45vw;
+    }
+}
+
+
+
+.containerP1{
+    height: 50vh;
+    display: flex;
+}
+
+.containerP1__left{
+    width: 50vw;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.tituloI{
+    height:10vh;
+    margin-left: -3vw;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.parrafosI{
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+.containerP1__right{
+    width: 50vw;
+    background-color:#c1d1de;
+    /*background-color: red;
+    border: 5px solid #183e7c;
+    */
+}
+
+.containerP2{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+}
+
+.containerP2__left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    align-items: flex-end;
+}
+.tituloP2{
+    height: 10vh;
+}
+
+.parrafoP2{
+    height: 40vh;
+}
+
+.containerP2__right{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+/*test*/
+
+
+
+.test{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+    padding: 5%;
+}
+.centrado{
+    padding: 50px;
+}
+
+.testP1{
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+}
+
+.testP2{
+    height: 80vh;
+    width: 100vw;
+    padding: 5%;
+}
+
+.resultadoTest{
+    height: 20vh;
+    padding: 2%;
+}
+
