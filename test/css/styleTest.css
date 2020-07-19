@@ -68,8 +68,8 @@ body{
     align-items: center;
     position: absolute;
     margin-top: -100vh;
-    animation: putOnCP1 3s;
-    -webkit-animation: putOnCP1 3s;
+    animation: putOnCP1 2s;
+    -webkit-animation: putOnCP1 2s;
     animation-fill-mode: forwards;
 }
 .contenedorLnk{
