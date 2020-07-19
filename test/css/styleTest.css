@@ -29,6 +29,12 @@ body{
 
 }
 
+#muestraValor{
+    text-align: center;
+    margin: 5vh;
+    font-size: 5vh;
+}
+
 .tituloG{
 
 }

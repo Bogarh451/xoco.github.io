@@ -49,7 +49,7 @@
                 <li>Ausente</li>
                 <li>Intensidad Leve</li>
                 <li>Intensidad Moderada</li>
-                <li>Totalmente Incapacitado</li>
+                <li>Intensidad Grave</li>
                 <li>Totalmente Incapacitado</li>
                 </ol>
             </div>
@@ -58,12 +58,12 @@
         <div class="containerP2__right">
             <form action="#">
                 <p class="range-field">
-                  <input type="range" id="pruebaRango" min="0" max="4" />
+                  <input type="range" id="juegaInput" oninput="valorInput()" min="0" max="4" />
                 </p>
             </form>
-
-            <p class="regresaValor" class="ltAzulF">
-                Ahora no funciono
+            
+            <p id="muestraValor" class="ltAzulF">
+                
             </p>
         </div>
 

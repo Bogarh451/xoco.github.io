@@ -1,9 +1,45 @@
+/* Juega con el */
+function valorInput(){
+  var actualValor = document.getElementById("juegaInput").value;
+  
+  switch (actualValor){
+    case "0":
+      document.getElementById("muestraValor").innerHTML = actualValor + " <br>Ausente";
+    break;
+
+    case "1":
+      document.getElementById("muestraValor").innerHTML = actualValor + " <br>Intensidad Leve";
+    break;
+
+    case "2":
+      document.getElementById("muestraValor").innerHTML = actualValor + "<br>Intensidad Moderada";
+    break;
+
+    case "3":
+      document.getElementById("muestraValor").innerHTML =  actualValor + "<br>Intensidad Grave";
+    break;
+
+    case "4":
+      document.getElementById("muestraValor").innerHTML = actualValor + "<br>Totalmente Incapacitado";
+    break;
+
+  }
+}
+
+
+
 let anima = document.getElementById("anima");
 let contenedor = document.getElementById("contenedor");
 
 anima.addEventListener("click", function(){
-    contenedor.setAttribute("class", "animado")
+    contenedor.setAttribute("class", "animado");
 });
+
+
+
+
+
+
 
 /*No animation*/
 
