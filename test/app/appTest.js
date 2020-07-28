@@ -28,14 +28,6 @@ function valorInput(){
 
 
 
-let anima = document.getElementById("anima");
-let contenedor = document.getElementById("contenedor");
-
-anima.addEventListener("click", function(){
-    contenedor.setAttribute("class", "animado");
-});
-
-
 
 
 
