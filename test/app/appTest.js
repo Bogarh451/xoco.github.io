@@ -37,7 +37,7 @@ function valorInput(){
 
 
 
-let boton = document.getElementById("boton");
+let boton = document.getElementById("btnResultado");
 
 boton.addEventListener("click", function(){
   var preg1 = document.getElementById("test1").value;
