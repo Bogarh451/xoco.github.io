@@ -1,6 +1,8 @@
+
+
 let contenedor = document.getElementById("contenedorAnima");
 
-let anteriorBtn1 = document.getElementById("anterior1");
+/*let anteriorBtn1 = document.getElementById("anterior1");*/
 let siguienteBtn1 = document.getElementById("siguiente1");
 
 let anteriorBtn2 = document.getElementById("anterior2");
@@ -40,7 +42,7 @@ let anteriorBtn13 = document.getElementById("anterior13");
 let siguienteBtn13 = document.getElementById("siguiente13");
 
 let anteriorBtn14 = document.getElementById("anterior14");
-let siguienteBtn14 = document.getElementById("siguiente14");
+/*let siguienteBtn14 = document.getElementById("siguiente14");*/
 
 /*BOTON UNO*/ 
 
@@ -48,12 +50,12 @@ siguienteBtn1.addEventListener("click", function(){
     contenedor.setAttribute("class", "scrollSiguiente1");
     
 });
-
+/*
 anteriorBtn1.addEventListener("click", function(){
     contenedor.setAttribute("class", "scrollAnterior1");
 
 });
-
+*/
 /*BOTON DOS*/
 
 siguienteBtn2.addEventListener("click", function(){
@@ -204,12 +206,12 @@ anteriorBtn13.addEventListener("click", function(){
 
 
 /*BOTON CATORCE*/
-
+/*
 siguienteBtn14.addEventListener("click", function(){
     contenedor.setAttribute("class", "scrollSiguiente14");
     
 });
-
+*/
 anteriorBtn14.addEventListener("click", function(){
     contenedor.setAttribute("class", "scrollAnterior14");
     
