@@ -1,75 +1,70 @@
-body{
-    margin: 0px;
-    font-family: 'Mulish', sans-serif;
+body {
+  margin: 0px;
+  font-family: "Mulish", sans-serif;
 }
 
-.ltDorado{
+@media screen and (max-width: 1920px) and (min-width: 601px) {
+  h1 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .ltDorado {
     color: #e5c700;
-}
-.ltAzulF{
+  }
+  .ltAzulF {
     color: #183e7c;
     font-size: 1.5vw;
-}
+  }
 
-.ltBlanco{
+  .ltBlanco {
     color: #f8f9fb;
-}
-.ltAzulC{
+  }
+  .ltAzulC {
     color: #c1d1de;
-}
+  }
 
-.letraP{
-
-}
-.fab{
+  .letraP {
+  }
+  .fab {
     color: white;
-    font-size: 10vw;
-}
-.contenedorResultado{
+    font-size: 5vw;
+  }
+  .contenedorResultado {
     width: 100vw;
-    height: 175vh;
-   
+    height: 250vh;
     display: flex;
     flex-direction: column;
     background-color: white;
-    align-items: center;
-}
-.contenedorResultado_primero{
-    width: 100vw;
-    height: 10vh;
-    
+  }
+  .contenedorResultado_primero {
+    height: 25vh;
     background-color: #f8f9fb;
-    padding:2vw;
-    text-align: center;  
-}
+    padding: 1vw;
+    text-align: center;
+  }
 
-.contenedorResultado_segundo{
+  .contenedorResultado_segundo {
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
-    height: 25vh;
     background-color: #183e7c;
     text-align: center;
-    
-}
-.centrado{
+  }
+  .centrado {
     text-align: center;
-}
+  }
 
-.contenedorResultado_tercero{
-    width: 150vw;
-    height: 100vh;
+  .contenedorResultado_tercero {
+    height: 130vh;
     background-color: #f8f9fb;
-    padding-left: 4vw;
+    padding: 5vw;
     overflow: hidden;
-}
+  }
 
-.contenedorResultado_cuarto{
-    width: 100vw;
+  .contenedorResultado_cuarto {
     height: 40vh;
     background-color: #183e7c;
-    padding:2vw;
+    padding: 2vw;
     text-align: center;
-    
+  }
 }

@@ -6,24 +6,27 @@
     <title>Resultado</title>
     <link rel="stylesheet" href="css/styleTestResultado.css">
     <script src="https://kit.fontawesome.com/8eaf88a1cd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <section class="contenedorResultado">
         <div class="contenedorResultado_primero ltAzulF">
-            <p class="letraP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita fugit vero minus nobis? Reiciendis omnis quaerat ratione, voluptas error aut!</p>
+            <h1>RESULTADOS</h1>
+            <p class="letraP">Establecer un diagnóstico es una tarea compleja que requiere de la entrevista con un profesional. Por tanto, este test no pretende sustituir un diagnóstico formal, sino sólo servir de guía para quien lo utilice.</p>
         </div>
         <div class="contenedorResultado_segundo ltBlanco">
             <h1 id="tipoAnsiedad"></h1>
         </div>
         <div class="contenedorResultado_tercero ltAzulF">
-            <h1 id="ansiedadTt" class="centrado">EXPLICACION</h1>
-            <p id="ansiedadExp"></p>
+            <h3 id="ansiedadTt" class="centrado">EXPLICACION</h1>
+            <p id="ansiedadExp" onchange="explicacion()"></p>
         </div>
         <div class="contenedorResultado_cuarto ltBlanco">
             <h1 id="validaAyuda"></h1>
-            <h2>Mandame un mensaje para agendar una cita.</h2>
+            <h3>MANDAME UN INBOX PARA AGENDAR UNA LLAMADA DE CONSULTA GRATUITA.</h2>
             <a href="https://www.facebook.com/wolfgang.volker?epa=SEARCH_BOX">
-            <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-messenger"></i>
             </a>
         </div>
     </section>

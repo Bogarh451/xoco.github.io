@@ -34,6 +34,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: flex-end;
+    
   }
 
   .botonTest {
@@ -50,7 +51,7 @@
   }
 
   .cParrafo {
-    color: #183e7c;
+    color: #f8f9fb;
     font-size: 13px;
   }
 
@@ -244,6 +245,10 @@
     color: #183e7c;
   }
 
+  h1{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
   .contactofb {
     color: white;
     font-size: 5vw;
@@ -280,7 +285,7 @@
 
   .tituloH {
     font-size: 4vw;
-    color: #183e7c;
+    color: #f8f9fb;
   }
 
   .centraT {
@@ -299,29 +304,25 @@
   .pCabecera1 {
     margin-top: -2vw;
     font-size: 1.5vw;
-    color: #183e7c;
+    color: #f8f9fb;
   }
 
   .pCabecera {
     font-size: 1.5vw;
-    color: #183e7c;
+    color: #f8f9fb;
   }
   .cabecera {
     display: flex;
     flex-direction: row;
     height: 82vh;
     width: 100vw;
-    /*
-      background: #6491735e; 
-      background: -webkit-linear-gradient(to right, #dbd5a4, #64917362),
-      
-        url(../img/portada.png); /* Chrome 10-25, Safari 5.1-6 
-      background: linear-gradient(to right, #dbd5a4, #64917367),
-        url(../img/portada.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-image: url(../img/portada.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    /*background-attachment: fixed;*/
-    position: relative;
+
+  }
+
+  img{
   }
 
   .leftC {
@@ -331,6 +332,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+ 
   }
 
   .rightC {
@@ -339,9 +341,11 @@
     width: 50vw;
     height: 82vh;
     justify-content: flex-end;
+    align-items: center;
     text-align: center;
     font-size: 2vw;
-    color: #183e7c;
+    color: #f8f9fb;
+    
   }
 
   .empatia {
