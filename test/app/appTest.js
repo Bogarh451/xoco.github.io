@@ -84,7 +84,7 @@ var ansiedadLeve, ansiedadGrave, ansiedadAusente;
    
   if(sumaTodo <= 5){
 
-    alert(sumaTodo+" "+sumaCognitiva);
+    /*alert(sumaTodo+" "+sumaCognitiva);*/
     esTipo = "ANSIEDAD AUSENTE";
     puedoAyudar = "SI CREES QUE EL TEST NO REFLEJA COMO TE SIENTES";
     ansiedadAusente = "a"
@@ -96,7 +96,7 @@ var ansiedadLeve, ansiedadGrave, ansiedadAusente;
    }
 
    if(sumaTodo >= 6 && sumaTodo < 15 ){
-    alert(sumaTodo+" "+sumaCognitiva); 
+    /*alert(sumaTodo+" "+sumaCognitiva); */
     esTipo = "TU ANSIEDAD ES LEVE CON PREVALENCIA SOMATICA";
     puedoAyudar = "DEFINITIVAMENTE PUEDO AYUDARTE CON ESO";
     ansiedadLeve = "b";
@@ -108,7 +108,7 @@ var ansiedadLeve, ansiedadGrave, ansiedadAusente;
    } 
    if(sumaTodo >= 15){
      
-    alert(sumaTodo+" "+sumaCognitiva); 
+   /* alert(sumaTodo+" "+sumaCognitiva); */
     esTipo = "TU ANSIEDAD REQUIERE TRATAMIENTO";
     puedoAyudar = "DEFINITIVAMENTE PUEDO AYUDARTE CON ESO";
     ansiedadGrave = "c";
