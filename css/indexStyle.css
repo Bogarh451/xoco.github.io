@@ -1,242 +1,8 @@
-@media screen and (max-width: 600px) and (min-width: 350px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 640px;
-  }
 
-  .cabecera {
-    width: 100vw;
-    height: 80vh;
-    padding: 1vw 2vw 2vw;
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    background: #6491735e; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dbd5a454, #64917341),
-      url(../img/himg3.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dbd5a469, #64917367),
-      url(../img/himg3.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed;
-    position: relative;
-  }
-  .cTexto1 {
-    width: 100vw;
-    height: 60vh;
-    text-align: center;
-    padding-top: 5vw;
-  }
-  .cTexto2 {
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-end;
-    
-  }
-
-  .botonTest {
-    margin-top: 10%;
-  }
-  .cTitulo {
-    color: #183e7c;
-    font-size: 29px;
-  }
-
-  .cSubTitulo {
-    color: #183e7c;
-    font-size: 20px;
-  }
-
-  .cParrafo {
-    color: #f8f9fb;
-    font-size: 13px;
-  }
-
-  .eTitulos {
-    font-size: 5vw;
-  }
-  .tituloDorado {
-    color: #e5c700;
-    font-size: 8vw;
-  }
-
-  .parrafoBlanco {
-    color: #f8f9fb;
-    font-size: 3vw;
-  }
-
-  .empatia {
-    width: 100vw;
-    height: 350vh;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-  }
-
-  .eContenedores {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .eTercero {
-    width: 100vw;
-    height: 50vh;
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #183e7c;
-    padding: 5vw;
-    overflow: hidden;
-  }
-
-  .epTexto {
-    margin-top: 3vh;
-    height: 70vh;
-    width: 80vw;
-    background-color: #183e7c;
-    font-size: 3vw;
-    color: #f8f9fb;
-    padding: 2vw 2vw 2vw;
-  }
-
-  .epImg {
-    margin-bottom: 3vh;
-    height: 70vh;
-    width: 80vw;
-    background-image: url(../img/eImg1.jpg);
-    background-attachment: fixed;
-    position: relative;
-  }
-
-  .esTexto {
-    margin-top: 10vh;
-    height: 70vh;
-    width: 80vw;
-    background-color: #c1d1de;
-    font-size: 2.5vw;
-    color: #183e7c;
-    padding: 20vw 5vw 20vw;
-  }
-
-  .esImg {
-    margin-bottom: 3vh;
-    height: 70vh;
-    width: 80vw;
-    background-image: url(../img/himg2.jpg);
-    background-attachment: fixed;
-    position: relative;
-  }
-
-  .ecTexto {
-    margin-top: 10vh;
-    height: 70vh;
-    width: 80vw;
-    background-color: #c1d1de;
-    font-size: 2.5vw;
-    color: #183e7c;
-    padding: 20vw 5vw 20vw;
-  }
-
-  .ecImg {
-    margin-bottom: 3vh;
-    height: 70vh;
-    width: 80vw;
-    background-image: url(../img/himg2.jpg);
-    background-attachment: fixed;
-    position: relative;
-  }
-
-  .margenTop {
-    margin-top: 5vh;
-  }
-  .centrado {
-    text-align: center;
-  }
-
-  .miMetodo {
-    width: 100vw;
-    height: 200vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .mContenedor1 {
-    width: 100vw;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #183e7c;
-    color: #f8f9fb;
-    padding: 2vw;
-  }
-
-  .mContenedor2 {
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    color: #183e7c;
-    background-color: #f8f9fb;
-    padding: 5vw 2vw 5vw;
-  }
-
-  .mContenedor3 {
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    color: #183e7c;
-    background-color: #c1d1de;
-    padding: 2vw;
-  }
-
-  .mContenedor4 {
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    color: #f8f9fb;
-    background-color: #183e7c;
-    padding: 5vw;
-    text-align: center;
-  }
-
-  .grande {
-    font-size: 8vw;
-  }
-  i {
-    font-size: 3vw;
-    color: darkgray;
-  }
-  footer {
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: white;
-  }
-
-  .pAzul {
-    margin-top: -1vw;
-    font-size: 3vw;
-  }
-  .pAzul {
-    font-size: 3vw;
-  }
-}
 
 @media screen and (max-width: 1920px) and (min-width: 601px) {
+  
+  /*General*/
   i {
     font-size: 2vw;
     color: #183e7c;
@@ -244,83 +10,15 @@
 
   h1{
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 2.5vw;
+    font-weight: bold;
   }
 
-  .contactofb {
-    color: white;
-    font-size: 5vw;
-  }
-  .pAzul {
-    color: #183e7c;
-    font-size: 1.5vw;
+  p{
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-  .pBlanco {
-    color: #f8f9fb;
-    font-size: 1.5vw;
-  }
-  .pBlancoMensaje{
-    font-size: 2vw;
-  }
-  .pBlancoG{
-    color: #f8f9fb;
-    font-size: 1.9vw;
-  }
-  .pAzulclaro {
-    color: #c1d1de;
-    font-size: 1.5vw;
-  }
-
-  .tDorado {
-    color: #e5c700;
-    font-size: 2.5vw;
-  }
-
-  .tBlanco {
-    color: #f8f9fb;
-    font-size: 2.5vw;
-  }
-
-  .tAzul {
-    color: #183e7c;
-    font-size: 2.8vw;
-  }
-
-  .tituloH {
-    font-size: 4vw;
-    color: #f8f9fb;
-  }
-
-  .centraT {
-    text-align: center;
-  }
-
-  .centro {
-    text-align: center;
-  }
-  .subTitulo{
-    color: #183e7c;
-    font-size: 2.2vw;
-  }
-
-  .alineaListaYtam {
-    padding-top: 2%;
-    padding-left: 16%;
-    padding-right: 12%;
-    font-size: 2vw;
-  }
-
-  .pCabecera1 {
-    margin-top: -2vw;
-    font-size: 1.5vw;
-    color: #f8f9fb;
-  }
-
-  .pCabecera {
-    font-size: 1.5vw;
-    color: #f8f9fb;
-  }
+  /*Cabecera*/
+  
   .cabecera {
     display: flex;
     flex-direction: row;
@@ -331,21 +29,22 @@
     background-size: cover;
 
   }
-
-  img{
-  }
-
-  .leftC {
-    height: 82vh;
+  .c-contenedorIzq_desk{
     width: 50vw;
-    padding: 2.5vh 2vw;
+    height: 82vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
- 
+  }
+  
+  .dc-left1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .rightC {
+
+  .c-contenedorDer_desk {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -354,12 +53,26 @@
     font-size: 1.5vw;
     color: #f8f9fb;
   }
-  .cPresentacion{
-    width: 25vw;
-    margin-left: 31vw;
-    text-align: center;
-    
+
+  /*Cabecera texto*/
+
+  .cci-Parrafo {
+    font-size: 1.6vw;
+    line-height: 2vw;
+    color: #f8f9fb;
+    padding-left: 2vw;
   }
+
+  .cci-titulo {
+    font-size: 7.5vw;
+    color: #f8f9fb;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    line-height: 6vw;
+    text-align: center;
+  }
+
+  /*Empatia*/
 
   .empatia {
     height: 370vh;
@@ -368,54 +81,59 @@
     flex-direction: column;
   }
 
-  .primeroE {
+  .e-primerContenedor_desk {
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
   }
 
-  .conText1 {
+  .ep-texto_desk {
     width: 60vw;
     height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 18vw;
-    padding-right: 4vw;
-    padding-top: 12vh;
-    padding-bottom: 7vh;
+    padding-right: 3vw;
     position: relative;
     background-color: #183e7c;
     left: 30vw;
     top: 4vh;
   }
 
-  .eImg1 {
+  .ep-imagen_desk {
     background-image: url(../img/img1.jpg);
     background-size: 210%;
     background-position: 20% 63%;
-    width: 35vw;
-    height: 74vh;
+    width: 40vw;
+    height: 65vh;
     position: relative;
-    right: 50vw;
+    right: 54vw;
     top: 10vh;
   }
 
-  .segundoE {
+  .e-segundoContenedor_desk {
     height: 100vh;
     width: 100vw;
     display: flex;
   }
 
-  .conText2 {
+  .es-texto_desk {
     width: 52vw;
     height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #c1d1de;
     position: relative;
     left: 12vw;
     top: 9vh;
-    padding: 18vh 10vw 5vh 4vw;
+    padding-left: 5vw;
+    padding-right: 10vw;
   }
 
-  .eImg2 {
+  .es-imagen_desk {
     width: 34vw;
     height: 60vh;
     background-image: url(../img/img2.jpg);
@@ -427,7 +145,7 @@
     background-position: right;
   }
 
-  .terceroE {
+  .e-terceroContenedor_desk {
     height: 70vh;
     width: 100vw;
     display: flex;
@@ -435,16 +153,18 @@
     justify-content: center;
     background-color: #183e7c;
     text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
-  .cuartoE {
+  .e-cuartoContenedor_desk {
     width: 100vw;
     height: 70vh;
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .conText4 {
+  .ec-texto_desk {
     width: 58vw;
     height: 60vh;
     background-color: #c1d1de;
@@ -454,7 +174,7 @@
     padding: 14vh 6vw 2vh 8vw;
   }
 
-  .conImgX {
+  .ec-imagen_desk {
     background-image: url(../img/img3.png);
     width: 28vw;
     height: 42vh;
@@ -464,27 +184,73 @@
     top: 16vh;
   }
 
+  /*Empatia Texto*/
+  .ept-tituloBlanco{
+    font-size: 3vw;
+    color: #f8f9fb;
+  }
+
+  .est-tituloAzul {
+    color: #183e7c;
+    font-size: 3vw;
+    text-align: right;
+}
+
+.et-tituloDorado {
+  color: #e5c700;
+  font-size: 4.5vw;
+}
+
+.ect-tituloAzul {
+  color: #183e7c;
+  font-size: 3vw;
+}
+  .ept-parrafoBlanco{
+    font-size: 1.7vw;
+    color: #f8f9fb;
+  }
+
+  .est-parrafoAzul {
+    color: #183e7c;
+    font-size: 1.5vw;
+    text-align: right;
+  }
+
+  .ect-parrafoAzul {
+    color: #183e7c;
+    font-size: 1.5vw;
+  }
+
+  .et-parrafoBlanco {
+    color:#c1d1de;
+    font-size: 2.5vw;
+  }
+
+
+
+
+  /*Mi metodo*/
+
   .miMetodo {
     width: 100vw;
-    height: 255vh;
+    height: 305vh;
     display: flex;
     flex-direction: column;
   }
 
-  .primeroM {
+  .m-primerContenedor_desk {
     width: 100vw;
-    height: 70vh;
+    height: 90vh;
     padding:4vw;
     display: flex;
     flex-direction: column;
     background-color: #183e7c;
-    text-align: center;
     justify-content: center;
   }
 
-  .segundoM {
+  .m-segundoContenedor_desk {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     padding:4vw;
     display: flex;
     flex-direction: column;
@@ -493,17 +259,20 @@
     
   }
 
-  .terceroM {
+  .m-terceroContenedor_desk {
     width: 100vw;
-    height: 65vh;
+    height: 85vh;
     background-color: #c1d1de;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5vw;
 
   }
 
-  .cuartoM {
+
+   
+  .m-cuartoContenedor_desk {
     width: 100vw;
     height: 60vh;
     padding:4vw;
@@ -514,6 +283,159 @@
     text-align: center;
     
   }
+
+
+
+
+/*Mi metodo Textos*/
+.mp-tituloBlanco{
+  font-size: 4.5vw;
+  color: #f8f9fb;
+  text-align: center;
+}
+
+.mp-parrafoBlanco{
+  color: #f8f9fb;
+  font-size: 1.9vw;
+}
+
+.mp-tituloAzul{
+  color: #183e7c;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.mp-parrafoAzul{
+  color: #183e7c;
+  font-size: 1.9vw;
+}
+
+.mp-tituloDorado{
+  color: #e5c700;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.mp-parrafoAzul_lista{
+  color: #183e7c;
+  font-size: 1.9vw;
+  margin-top: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+  .contactofb {
+    color: white;
+    font-size: 5vw;
+  }
+ 
+
+
+
+  .pAzulclaro {
+    color: #c1d1de;
+    font-size: 1.5vw;
+  }
+
+
+
+ 
+  p{
+    font-family: Arial;
+  }
+
+
+
+  .centraT {
+    text-align: center;
+  }
+
+  button{
+    text-align: center;
+    border: none;
+    background-color: #e5c700;
+    width: 26vw;
+    height: 12vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #f8f9fb;
+    font-size: 3.5vw;
+  }
+  .subTitulo{
+    color: #183e7c;
+    font-size: 2.2vw;
+  }
+
+ 
+
+
+  .dcl1-ParrafoP {
+    font-size: 1.6vw;
+    color: #f8f9fb;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+
+
+
+  .dc-left{
+    padding-top: 1vh;
+  }
+
+
+
+
+  .cPresentacion{
+    width: 25vw;
+    margin-left: 31vw;
+    text-align: center;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   footer {
     width: 100vw;
