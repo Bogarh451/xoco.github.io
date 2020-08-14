@@ -1,12 +1,14 @@
-
-
-@media screen and (max-width: 1920px) and (min-width: 601px) {
+@media screen and (max-width: 1920px) and (min-width: 1024px) {
   
   /*General*/
   i {
-    font-size: 2vw;
+    font-size: 2rem;
     color: #183e7c;
   }
+  ol{
+    list-style-type:katakana;
+   }
+  
 
   h1{
     font-family: 'Nunito Sans', sans-serif;
@@ -15,6 +17,7 @@
 
   p{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
   }
 
   /*Cabecera*/
@@ -72,85 +75,113 @@
     text-align: center;
   }
 
-  /*Empatia*/
+  /*Empatia, primero doy dimensiones a contenedor padre y despues trabajo en vw*/
 
   .empatia {
-    height: 370vh;
     width: 100vw;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .e-primerContenedor_desk {
-    height: 100vh;
-    width: 100vw;
+    min-width: 1200px;
+    max-height: 1080px;
+    display: grid;
+    grid-template-rows: 118px 75px 465px 75px 118px;
+    grid-template-columns: 232.5px 232.5px 367.5px 367.5px;
+    
+    /* FLEX_BOX
+    grid-template-rows: 9.926vh 7.944vh 43.056vh 7.944vh 9.926vh;
+    grid-template-columns: 19.141vw 19.141vw 12.109vw 12.109vw;
     display: flex;
     flex-direction: row;
+    centra el contenedor
+    margin-left: auto;
+    margin-right: auto;
+    */
   }
 
   .ep-texto_desk {
-    width: 60vw;
-    height: 86vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 18vw;
-    padding-right: 3vw;
-    position: relative;
     background-color: #183e7c;
-    left: 30vw;
-    top: 4vh;
+    grid-area: 2/2 / 5/5;
+    padding: 6rem 1rem 4rem 18rem;
+   /*
+    grid-area: 2/1 / 5/4;
+    grid-row: 2 / 5;
+    grid-column: 1 / 4;
+    */
   }
-
+ /*el ancho se modifico por el vw del padre*/
   .ep-imagen_desk {
+    /*
+    grid-column:  1 / 3;
+    grid-row:     3 / 4;
+    grid-area: 3/1 / 4/3;
+    
+    grid-column:  3 / 5;
+    grid-row:     3 / 4;
+    grid-area:  3/3 / 4/5;
+    */
+    grid-area: 3/1 / 4/3;
     background-image: url(../img/img1.jpg);
-    background-size: 210%;
-    background-position: 20% 63%;
-    width: 40vw;
-    height: 65vh;
-    position: relative;
-    right: 54vw;
-    top: 10vh;
+    background-size: 220%;
+    background-position: 20% 60%;
   }
 
   .e-segundoContenedor_desk {
-    height: 100vh;
-    width: 100vw;
     display: flex;
+    min-width: 1200px;
+    min-height: 851px;
   }
-
+  .es-fondo{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    align-items: center;
+  }
   .es-texto_desk {
-    width: 52vw;
-    height: 72vh;
+    width: 735px;
+    height: 615px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 3.5rem;
+    padding-left: 1rem;
     background-color: #c1d1de;
-    position: relative;
-    left: 12vw;
-    top: 9vh;
-    padding-left: 5vw;
-    padding-right: 10vw;
   }
 
-  .es-imagen_desk {
-    width: 34vw;
-    height: 60vh;
+  .es-imagenYfondo_desk{
+    width: 465px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .es-imagen {
+    width: 465px;
+    height: 465px;
     background-image: url(../img/img2.jpg);
-    position: relative;
-    top: 17vh;
-    left: 5vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
   }
 
+  .es-fondoAzul{
+    align-self: flex-start;
+    width: 50%;
+    height: 12.5%;
+    background-color: #c1d1de;
+  }
+
   .e-terceroContenedor_desk {
-    height: 70vh;
+    min-height: 519px;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #183e7c;
     text-align: center;
     padding-left: 5vw;
@@ -158,72 +189,68 @@
   }
 
   .e-cuartoContenedor_desk {
-    width: 100vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: row-reverse;
+    min-width: 1200px;
+    max-height: 1080px;
+    display: grid;
+    grid-template-rows: 118px 75px 465px 75px 118px;
+    grid-template-columns: 232.5px 232.5px 367.5px 367.5px;
   }
 
   .ec-texto_desk {
-    width: 58vw;
-    height: 60vh;
     background-color: #c1d1de;
-    position: relative;
-    right: 5vw;
-    top: 18vh;
-    padding: 14vh 6vw 2vh 8vw;
+    grid-area: 2/2 / 5/5;
+    padding: 10rem 6rem 1rem 18rem;
   }
+    
 
   .ec-imagen_desk {
+    grid-area: 3/1 / 4/3;
     background-image: url(../img/img3.png);
-    width: 28vw;
-    height: 42vh;
-    position: relative;
     background-size: cover;
     background-position: right;
-    top: 16vh;
+
   }
 
   /*Empatia Texto*/
   .ept-tituloBlanco{
-    font-size: 3vw;
+    font-size: 2.8rem;
     color: #f8f9fb;
   }
 
   .est-tituloAzul {
     color: #183e7c;
-    font-size: 3vw;
+    font-size: 2.8rem;
     text-align: right;
 }
 
 .et-tituloDorado {
   color: #e5c700;
-  font-size: 4.5vw;
+  font-size: 2.8rem;
 }
 
 .ect-tituloAzul {
   color: #183e7c;
-  font-size: 3vw;
+  font-size: 2.8rem;
 }
   .ept-parrafoBlanco{
-    font-size: 1.7vw;
+    font-size: 1.2rem;
     color: #f8f9fb;
   }
 
   .est-parrafoAzul {
     color: #183e7c;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     text-align: right;
   }
 
   .ect-parrafoAzul {
     color: #183e7c;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
   }
 
   .et-parrafoBlanco {
     color:#c1d1de;
-    font-size: 2.5vw;
+    font-size: 1.6rem;
   }
 
 
@@ -233,15 +260,15 @@
 
   .miMetodo {
     width: 100vw;
-    height: 305vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
   }
 
   .m-primerContenedor_desk {
     width: 100vw;
-    height: 90vh;
-    padding:4vw;
+    height: 50vh;
+    padding: 2rem 10rem 2rem;
     display: flex;
     flex-direction: column;
     background-color: #183e7c;
@@ -250,23 +277,23 @@
 
   .m-segundoContenedor_desk {
     width: 100vw;
-    height: 70vh;
-    padding:4vw;
+    height: 50vh;
+    padding: 2rem 10rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #f8f9fb;
     
   }
 
   .m-terceroContenedor_desk {
     width: 100vw;
-    height: 85vh;
+    height: 50vh;
     background-color: #c1d1de;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 5vw;
+    justify-content: space-evenly;
+    padding: 2rem 10rem 2rem;
 
   }
 
@@ -274,11 +301,11 @@
    
   .m-cuartoContenedor_desk {
     width: 100vw;
-    height: 60vh;
-    padding:4vw;
+    height: 40vh;
+    padding: 2rem 10rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #183e7c;
     text-align: center;
     
@@ -289,37 +316,36 @@
 
 /*Mi metodo Textos*/
 .mp-tituloBlanco{
-  font-size: 4.5vw;
+  font-size: 2.8rem;
   color: #f8f9fb;
   text-align: center;
 }
 
 .mp-parrafoBlanco{
   color: #f8f9fb;
-  font-size: 1.9vw;
+  font-size: 1.2rem;
 }
 
 .mp-tituloAzul{
   color: #183e7c;
-  font-size: 4.5vw;
+  font-size: 2.8rem;
   text-align: center;
 }
 
 .mp-parrafoAzul{
   color: #183e7c;
-  font-size: 1.9vw;
+  font-size: 1.2rem;
 }
 
 .mp-tituloDorado{
   color: #e5c700;
-  font-size: 4.5vw;
+  font-size: 2.8rem;
   text-align: center;
 }
 
 .mp-parrafoAzul_lista{
   color: #183e7c;
-  font-size: 1.9vw;
-  margin-top: 4vw;
+  font-size: 1.2rem;
 }
 
 
@@ -349,7 +375,7 @@
 
   .contactofb {
     color: white;
-    font-size: 5vw;
+    font-size: 2rem;
   }
  
 
@@ -386,7 +412,7 @@
   }
   .subTitulo{
     color: #183e7c;
-    font-size: 2.2vw;
+    font-size: 2.5rem;
   }
 
  
@@ -416,7 +442,9 @@
     text-align: center;
     
   }
-
+  .f-aviso{
+    text-align: center;
+  }
 
 
 
@@ -439,9 +467,10 @@
 
   footer {
     width: 100vw;
-    height: 10vh;
+    height: 12vh;
     padding: 2%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
   }
 }

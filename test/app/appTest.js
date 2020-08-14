@@ -97,7 +97,7 @@ var ansiedadLeve, ansiedadGrave, ansiedadAusente;
 
    if(sumaTodo >= 6 && sumaTodo < 15 ){
     /*alert(sumaTodo+" "+sumaCognitiva); */
-    esTipo = "TU ANSIEDAD ES LEVE CON PREVALENCIA SOMATICA";
+    esTipo = "TU ANSIEDAD ES LEVE";
     puedoAyudar = "DEFINITIVAMENTE PUEDO AYUDARTE CON ESO";
     ansiedadLeve = "b";
 
