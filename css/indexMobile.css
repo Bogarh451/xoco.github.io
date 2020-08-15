@@ -1,0 +1,432 @@
+/*@media screen and (max-width: 1023px) and (min-width: 600px) {
+    .cabecera{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../img/portada.png);
+    background-position: top right ;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    }
+}
+*/
+@media screen and (max-width: 599px) and (min-width: 350px) {
+  /*General*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  i {
+    font-size: 2rem;
+    color: #183e7c;
+  }
+
+  .fab{
+    font-size: 1rem;
+  }
+  .f-aviso{
+    text-align: center;
+  }
+
+  .contactofb{
+    font-size: 1.5rem;
+  }
+  ol {
+    list-style-type: katakana;
+  }
+  h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  h2{
+      font-size: 1.5rem;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+
+  .es-imagenYfondo_desk{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .es-fondoAzul{
+    display: none;
+  }
+
+  /*Cabecera
+    background-image: url(../img/portada.png);
+    background-position: right top;
+    background-size: 290%;
+  */
+
+  .cabecera {
+    width: 100vw;
+    height: 130vh;
+    background-color: #f8f9fb;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+
+  .c--primerContenedor__mobile {
+    width: 100vw;
+    height: 115vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .cp--texto__mobile {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .cp--boton__mobile {
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    color: #183e7c;
+  }
+
+  .cp--imagen__mobile {
+    width: 90vw;
+    height: 50vh;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    background-image: url(../img/decision.jpg);
+    background-position: center top;
+  }
+
+  .c--segundoContenedor__mobile {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    color: #c1d1de;
+  }
+
+  .cTitulo_small{
+    font-size: 1rem;
+  }
+
+  .cSub_small{
+    font-size: .8rem;
+  }
+
+  button {
+    text-align: center;
+    border: none;
+    background-color: #183e7c;
+    width: 90vw;
+    height: 10vh;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    color: #f8f9fb;
+    font-size: 2.1rem;
+  }
+
+  button:hover {
+    opacity: 0.95;
+  }
+  /*Cabecera Textos*/
+  .cTitulo {
+    color: #183e7c;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+    font-size: 2rem;
+    border-style: none none solid none;
+  }
+  .cParrafo {
+    color: #183e7c;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /*EMPATIA*/
+
+  .empatia{
+    width: 100vw;
+    height: 340vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .eContenedores__mobile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .eContenedorTercero__mobile{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #183e7c;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .ec--textos__mobile{
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .bg--azul{
+    background-color: #183e7c;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
+  }
+
+  .bg--azulClaro{
+    background-color: #c1d1de;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+  }
+
+
+  .ep--imagen__mobile {
+    width: 80vw;
+    height: 30vh;
+    background-image: url(../img/Img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .es--imagen__mobile {
+    width: 80vw;
+    height: 30vh;
+    background-image: url(../img/Img2.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .ec--imagen__mobile {
+    width: 80vw;
+    height: 30vh;
+    background-image: url(../img/Img3.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  .esTexto {
+    height: 50vh;
+    width: 80vw;
+    background-color: #c1d1de;
+    font-size: 2.5vw;
+    color: #183e7c;
+    padding: 20vw 5vw 20vw;
+  }
+
+  /*Empatia Texto*/
+
+  .tituloBlanco__tarjetas{
+    font-size: 1.5rem;
+    color: #f8f9fb;
+  }
+  .parrafoBlanco__tarjetas{
+    font-size: .85rem;
+    color: #f8f9fb;
+  }
+
+  .tituloAzul__tarjetas{
+    font-size: 1.5rem;
+    color: #183e7c;
+  }
+  .parrafoAzul__tarjetas{
+    font-size: .85rem;
+    color: #183e7c;
+  }
+
+  .cSubTitulo {
+    color: #183e7c;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .tituloDorado_tarjetas {
+    color: #e5c700;
+    font-size: 1.5rem;
+  }
+
+  .parrafoBlanco {
+    color: #f8f9fb;
+    font-size: 3vw;
+  }
+
+
+
+
+  .eTercero {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #183e7c;
+    padding: 5vw;
+    overflow: hidden;
+  }
+
+  /*Empatia contenedores*/
+
+
+
+  /*Empatia letras */
+  #ect-titulo_blanco {
+    color: #f8f9fb;
+    font-size: 5vw;
+  }
+
+  .e-parrafo-Blanco {
+    color: #f8f9fb;
+    font-size: 1.5vw;
+  }
+
+  /*OTRA COSA*/
+
+ 
+
+
+
+
+  .ecTexto {
+    
+    height: 50vh;
+    width: 80vw;
+    background-color: #c1d1de;
+    font-size: 2.5vw;
+    color: #183e7c;
+    padding: 20vw 5vw 20vw;
+  }
+
+
+  .centrado {
+    text-align: center;
+  }
+/*METODO*/
+  .miMetodo {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mContenedor1__mobile {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #183e7c;
+    color: #f8f9fb;
+    padding: 6vw;
+  }
+
+  .mContenedor2__mobile {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: #183e7c;
+    background-color: #f8f9fb;
+    padding: 5vw 12vw 5vw;
+  }
+
+  .mContenedor3__mobile {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: #183e7c;
+    background-color: #c1d1de;
+    padding: 4vw 10vw 4vw;
+  }
+
+  .mContenedor4__mobile {
+    width: 100vw;
+    height: 50vh;
+    padding: 10vw 10vw 10vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #183e7c;
+  }
+
+  /*EMPATIA textos*/
+
+  .mTitulo {
+    color: #183e7c;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    font-size: 1.5rem;
+    border-style: none none solid none;
+  }
+
+  .m3Titulo {
+    color: #183e7c;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .m4Titulo {
+    color: #e5c700;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .grande {
+    font-size: 8vw;
+  }
+  i {
+    font-size: 3vw;
+    color: darkgray;
+  }
+  footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+  }
+
+  .pAzul {
+    margin-top: -1vw;
+    font-size: 3vw;
+  }
+  .pAzul {
+    font-size: 3vw;
+  }
+}
