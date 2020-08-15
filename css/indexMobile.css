@@ -211,7 +211,7 @@
   .ep--imagen__mobile {
     width: 80vw;
     height: 30vh;
-    background-image: url(../img/Img1.jpg);
+    background-image: url(../img/img1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@
   .es--imagen__mobile {
     width: 80vw;
     height: 30vh;
-    background-image: url(../img/Img2.jpg);
+    background-image: url(../img/img2.jpg);
     background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@
   .ec--imagen__mobile {
     width: 80vw;
     height: 30vh;
-    background-image: url(../img/Img3.png);
+    background-image: url(../img/img3.png);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
