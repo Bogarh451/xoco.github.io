@@ -311,7 +311,7 @@
     flex-direction: column;
 
     width: 100vw;
-    height: 50vh;
+    height: fit-content;
     background-color: #c1d1de;
     
     color: #183e7c;
