@@ -28,16 +28,13 @@
   .fab {
     font-size: 1rem;
   }
-  .f-aviso {
-    text-align: center;
-  }
+
+
 
   .contactofb {
     font-size: 1.5rem;
   }
-  ol {
-    list-style-type: katakana;
-  }
+
   /*Oculto*/
 
   .es-imagenYfondo_desk {
@@ -90,8 +87,10 @@
     height: 50vh;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    background-image: url(../img/decision.jpg);
-    background-position: center top;
+    background-image: url(../img/portada.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 180%;
   }
 
   .c--segundoContenedor__mobile {
@@ -154,7 +153,7 @@
 
   .empatia {
     width: 100vw;
-    height: 280vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,14 +169,17 @@
   }
 
   .eContenedorTercero__mobile {
-    width: 100vw;
-    height: 40vh;
     display: flex;
     flex-direction: column;
+    
+    width: 100vw;
+    height: fit-content;
     background-color: #183e7c;
-    align-items: center;
+
     justify-content: space-evenly;
+    align-items: center;
     text-align: center;
+    padding: 6vw;
   }
   .centrado{
     text-align: center;
@@ -273,50 +275,59 @@
 
   /*METODO*/
   .miMetodo {
-    width: 100vw;
-    height: 140vh;
     display: flex;
     flex-direction: column;
+    
+    width: 100vw;
+    height: fit-content;
   }
 
   .mContenedor1__mobile {
-    width: 100vw;
-    height: 65vh;
     display: flex;
     flex-direction: column;
+
+    width: 100vw;
+    height: fit-content;
     background-color: #183e7c;
+
     color: #f8f9fb;
     padding: 6vw;
   }
 
   .mContenedor2__mobile {
-    width: 100vw;
-    height: 50vh;
     display: flex;
     flex-direction: column;
-    color: #183e7c;
+
+    width: 100vw;
+    height: fit-content;
     background-color: #f8f9fb;
-    padding: 5vw 12vw 5vw;
+    
+    color: #183e7c;
+    padding: 6vw;
   }
 
   .mContenedor3__mobile {
-    width: 100vw;
-    height: 50vh;
     display: flex;
     flex-direction: column;
-    color: #183e7c;
+
+    width: 100vw;
+    height: 50vh;
     background-color: #c1d1de;
-    padding: 4vw 10vw 4vw;
+    
+    color: #183e7c;
+    padding: 6vw;
   }
 
   .mContenedor4__mobile {
-    width: 100vw;
-    height: 35vh;
-    padding: 10vw 10vw 10vw;
     display: flex;
     flex-direction: column;
-    text-align: center;
+
+    width: 100vw;
+    height: fit-content;
     background-color: #183e7c;
+
+    text-align: center;
+    padding: 6vw;
   }
 
   /*EMPATIA textos*/
@@ -328,6 +339,14 @@
     text-align: center;
     font-size: 1.5rem;
     border-style: none none solid none;
+  }
+
+  .mTituloAzulClaro__mobile {
+    color: #183e7c;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    font-size: 1.5rem;
   }
 
   .m3Titulo {
@@ -353,14 +372,30 @@
     font-size: 3vw;
     color: darkgray;
   }
+
+
   footer {
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
+    background-color: #f8f9fb;
+  }
+
+  .f-aviso {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+  }
+
+
+  .f-iconos
+  {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
   }
 
   .pAzul {
