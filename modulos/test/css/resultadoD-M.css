@@ -189,8 +189,8 @@ body {
     height: fit-content;
     background-color: #f8f9fb;
     padding: 2vw;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 14%;
+    padding-right: 14%;
     text-align: justify;
   }
 
@@ -233,8 +233,8 @@ body {
     background-color: #f8f9fb;
     overflow: hidden;
     padding: 2vw;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 14%;
+    padding-right: 14%;
     text-align: justify;
   }
 
@@ -245,8 +245,8 @@ body {
     align-items: center;
     background-color: #183e7c;
     padding: 2vw;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 14%;
+    padding-right: 14%;
     text-align: center;
   }
 
@@ -278,5 +278,9 @@ body {
   .iconosEnlace {
     font-size: 2rem;
     color: #183e7c;
+  }
+
+  a:link{
+    text-decoration: none;
   }
 }
