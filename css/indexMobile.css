@@ -91,6 +91,8 @@
     height: 20vh;
     text-align: center;
     color: #183e7c;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .cp--imagen__mobile {

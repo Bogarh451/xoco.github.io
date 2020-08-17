@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+      width: 100vw;
+      height: 100vh;
+  }
+
+  i {
+    font-size: 2rem;
+    color: #c1d1de;
+  }
+
+  .fab{
+    font-size: 1.5rem;
+  }
+
+  .contactofb{
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  h2{
+      font-size: 1.5rem;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .informacion{
+      display: flex;
+      flex-direction: column;
+      
+      width: 100vw;
+      height: fit-content;
+      background-color: #f8f9fb;
+      
+      color: #183e7c;
+      font-size: 1rem;
+      padding: 6vw;
+      padding-left: 12%;
+      padding-right: 12%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+
+      width: 100vw;
+      height: 20vh;
+      background-color: #183e7c;
+
+      align-items: center;
+      justify-content: center;
+      color: #f8f9fb;
+  }
+
+  a:active{
+      color: #f8f9fb;
+  }
+
+  a:hover{
+    color: #f8f9fb;
+  }
+
+  a{
+      color: #c1d1de;
+  }
+
+  a:link{
+      text-decoration: none;
+  }
+
+  .centrado{
+    text-align: center;
+  }
